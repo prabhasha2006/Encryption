@@ -1,2 +1,5 @@
-# Encryption
- simple encryption by K.Prabhasha
+## Simple Encryption
+
+> simple encryption method by K.Prabhasha
+
+> Click here
