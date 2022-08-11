@@ -14,7 +14,7 @@ function prabhasha(){
     if (!nic){
 
         document.getElementById("upname").innerHTML = "⚠️ Enter a valid identity card number !"
-        document.getElementById("gend").innerHTML = "⚠️ERROR⚠️"
+        document.getElementById("gend").innerHTML = "⚠️ERROR⚠️ [empty values not support]"
 
     }else{
         if((nic.length) >= 11){
