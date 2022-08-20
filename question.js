@@ -2,9 +2,7 @@
   function openCity(cityName,elmnt,color) {
 
     var onckick = document.getElementById('onckick')
-    function btnover() { 
-      onckick.play(); 
-      } 
+    onckick.play(); 
 
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
