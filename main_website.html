@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<p id="checking">Click on the buttons inside the tabbed menu:</p>
+
+<div class="icon-bar">
+<button class="tablink" onclick="openCity('Oslo', this, '#950'),document.getElementById('btntxt').innerHTML = 'Home page'" id="defaultOpen"><i class="fa fa-home"></i> Home</button>
+<button id="btntxt" class="tablinks"  style="border-radius: 15px;" onclick="document.getElementById('btntxt').style.color = 'red'">Welcome</button>
+<button class="tablink" onclick="openCity('new', this, '#600'),document.getElementById('btntxt').innerHTML = 'Create a new Q&A',createFunction()"><i class="fa fa-folder"></i> New</button>
+<button class="tablink" onclick="openCity('Paris', this, '#050'),document.getElementById('btntxt').innerHTML = 'Log in to your acc'"><i class="fa fa-user"></i> Login</button>
+<button class="tablink" onclick="openCity('Tokyo', this, '#006'),document.getElementById('btntxt').innerHTML = 'Create account'"><i class="fa fa-bars"></i> Menu</button>
+</div>
+
+<!-- <i _ngcontent-tpe-c2="" class="zmdi zmdi-account material-icons-name"></i>
+  
+<i _ngcontent-pyb-c2="" class="fa fa-spinner fa-spin"></i>
+<i _ngcontent-tpe-c13="" class="fa fa-spinner fa-spin"></i>
+<i _ngcontent-xvh-c11="" class="fas fa-lightbulb"></i>
+
+<div _ngcontent-wgr-c9="" class="ball-grid-pulse"><div _ngcontent-wgr-c9=""></div><div _ngcontent-wgr-c9=""></div><div _ngcontent-wgr-c9=""></div><div _ngcontent-wgr-c9=""></div><div _ngcontent-wgr-c9=""></div><div _ngcontent-wgr-c9=""></div><div _ngcontent-wgr-c9=""></div><div _ngcontent-wgr-c9=""></div><div _ngcontent-wgr-c9=""></div></div> -->
+
+<div id="Oslo" class="tabcontent">
+  
+  <h1 id="a4">[Home Page]</h1>
+
+    <button class="tablinkl" onclick="openCity('aaa', this),document.getElementById('btntxt').innerHTML = 'question'" id="defaultOpen"><img _ngcontent-itw-c9="" alt="Image" class="video-js" src="https://i.ibb.co/CwffZ61/20220605-104552.jpg"><i class="fa fa-lightbulb-o" style="font-size:16px"></i> Home</button>
+  
+    <button class="tablinkl" onclick="openCity('aaa', this),document.getElementById('btntxt').innerHTML = 'Home page'" id="defaultOpen" style="text-align:right;"><img _ngcontent-itw-c9="" alt="Image" class="video-js" src="https://i.ibb.co/CwffZ61/20220605-104552.jpg"><i class="fa fa-spinner fa-spin"></i> Home</button>
+    
+    <button class="tablinkl" onclick="openCity('aaa', this),document.getElementById('btntxt').innerHTML = 'Home page'" style="text-align:left; text-indent: 30px;" id="defaultOpen"><img _ngcontent-itw-c9="" alt="Image" class="video-js" src="https://i.ibb.co/CwffZ61/20220605-104552.jpg"><u>RED DRAGON BOT QUESTION (1)</u></button>
+      
+    <button class="tablinkl" onmouseover="btnover()" onclick="openCity('aaa', this),document.getElementById('btntxt').innerHTML = 'Home page'" id="defaultOpen" style="text-align:left;"><img _ngcontent-itw-c9="" alt="Image" class="video-js" src="https://i.ibb.co/CwffZ61/20220605-104552.jpg"> Home</button>
+
+
+</div>
+
+
+
+<div id="new" class="tabcontent">
+  <h1 id="a1">Make your own questions</h1>
+  	<label for="txts">Question</label>
+    <textarea id="ques" name="txte" rows="4" cols="40"placeholder="Eg: දැන් සැපද? යැයි ඇසුවේ කවුද?"></textarea><meta charset="UTF-8">
+    <p id="foll"></p>
+    <label for="txts">Answer1</label>
+    <input type="text" id="ans1" name="txtk"placeholder="ගෝඨාබය"><br><br>
+    <label for="txts">Answer2</label>
+    <input type="text" id="ans2" name="txtk"placeholder="මහින්ද"><br><br>
+    <label for="txts">Answer3</label>
+    <input type="text" id="ans3" name="txtk"placeholder="බැසිල්"><br><br>
+    <label for="txts">Answer4</label>
+    <input type="text" id="ans4" name="txtk"placeholder="නාමල්"><br><br>
+    
+  <button class="tablink_submit" onclick="submits('Successfylly published')" id="defaultOpen">PUBLISH</button>
+  <p>Tap here to publich your question</p>
+
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h1 id="a2">Paris</h1>
+
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h1 id="a3">Tokyo</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="aaa" class="tabcontent">
+  <h1 id="a4">first</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<audio id="ckickover">
+  <source src="ckickover.mp3" type="audio/ogg">
+  <source src="ckickover.mp3" type="audio/mpeg">
+</audio>
+<audio id="onckick">
+  <source src="onckick.mp3" type="audio/ogg">
+  <source src="onckick.mp3" type="audio/mpeg">
+</audio>
+
+
+
+<script src="question.js"></script> 
+   
+</body>
+</html> 
