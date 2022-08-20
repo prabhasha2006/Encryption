@@ -1,7 +1,7 @@
 //require('index')
   function openCity(cityName,elmnt,color) {
 
-    var onckick = docuent.getElementById('onckick')
+    var onckick = document.getElementById('onckick')
     function btnover() { 
       onckick.play(); 
       } 
@@ -40,7 +40,7 @@ ans4:document.getElementById('ans4').value
 
   function btnover(){
 
-var ckickover = docuent.getElementById('ckickover')
+var ckickover = document.getElementById('ckickover')
 function btnover() { 
   ckickover.play(); 
   } 
